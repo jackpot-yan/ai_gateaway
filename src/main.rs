@@ -1,3 +1,4 @@
+use ai_gateaway::api::chat;
 fn main() {
-    println!("Hello, world!");
+    chat::hello();
 }
